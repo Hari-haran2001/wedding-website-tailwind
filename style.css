@@ -1,0 +1,372 @@
+/* Style for the video container */
+/* .container {
+  width: 100%;
+  height: 100%;
+} */
+
+/* .video-container{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.822);
+  z-index: 10;
+} */
+
+/* Style for the video */
+/* video {
+  min-width: 100%;
+  min-height: 100%;
+} */
+
+/*nav bar drop down */
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fbf7f7;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f6f5f5;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  height: 100px;
+  width: 130px;
+  background-color: white;
+  border-radius: px;
+}
+
+.dropdown-menu li {
+  display: block;
+}
+
+.dropdown-menu li a {
+  /* padding: 10px 15px; */
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0f0f0;
+  width: 100%;
+}
+
+/*drop down css end*/
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.vid {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  /* opacity: 0.8; */
+}
+
+.vid-home2-section {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+video {
+  filter: brightness(0.3);
+}
+.txt {
+  position: absolute;
+  top: 18rem;
+  left: 29%;
+  color: #fff;
+  text-align: center;
+  /* position: absolute;
+  top: 3rem;
+  left: 5rem; */
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .txt {
+    position: absolute;
+    top: 6rem;
+    left: 33%;
+  }
+  .txt-sub {
+    font-size: 15px !important;
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .txt {
+    position: absolute;
+    top: 11rem;
+    left: 18%;
+  }
+  .txt-sub {
+    font-size: 25px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .txt {
+    position: absolute;
+    top: 11rem;
+    left: 17%;
+  }
+  .txt-sub {
+    font-size: 25px !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .new {
+    top: 10rem;
+    left: 39%;
+    background-color: red;
+  }
+}
+
+/* image */
+.ex {
+  background: url(assets/bg-pattern-v2.png);
+  height: 100%;
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.8);
+  /* background-attachment: fixed; */
+}
+
+.ex1 {
+  background-color: rgba(0, 0, 0, 0.605);
+}
+
+.new {
+  top: 15rem;
+  left: 30%;
+}
+
+.img1 {
+  background: url("https://img.freepik.com/free-photo/gold-wedding-ring-symbolizes-love-togetherness-generated-by-ai_188544-44872.jpg?size=626&ext=jpg&ga=GA1.1.329639673.1707404218&semt=sph");
+  height: 80vh;
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-heading {
+  top: 5rem;
+  color: #fff;
+}
+
+.img-card {
+  top: 5rem;
+  left: 0%;
+}
+
+/* @media (min-width: 769px) and (max-width: 1440px) {
+  .card1 {
+    top: 1.5rem;
+    left: 7%;
+  }
+} */
+
+.card1 {
+  top: 1.5rem;
+  left: 7%;
+}
+.map {
+  width: 100%;
+  height: 80%;
+  filter: brightness(0.7);
+}
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #0056b3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* about-section*/
+
+.about-section-img {
+  background: url("assets/about\ section\ 1.avif");
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.5);
+}
+
+.about-us {
+  text-align: center;
+  padding-top: 300px;
+  color: rgb(243, 238, 238);
+}
+
+/* page section-ourservice page- mob device media query-same about us img*/
+@media (min-width: 320px) and (max-width: 768px) {
+  .about-us {
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(246, 241, 241);
+  }
+}
+
+.about-3rdsection-img {
+  background-image: url("assets/bg-pattern-v2.png");
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* page section Answers to Your Wedding Wonders: Frequently Asked Questions--media query*/
+@media (min-width: 769px) and (max-width: 1600px) {
+  .about-3rdsection-img {
+    background-image: url("assets/bg-pattern-v2.png");
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.aboutpage-3rd-section-img {
+  background: url("assets/aboutsection\ img.avif");
+  height: 80vh;
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.7);
+  background-attachment: fixed;
+}
+
+.accordion-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+/*wedding plan*/
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .wedding-plan-txt {
+    text-align: center;
+    padding-top: 80px;
+    color: rgb(243, 237, 237);
+  }
+}
+@media (min-width: 769px) and (max-width: 1600px) {
+  .wedding-plan-txt {
+    text-align: center;
+    padding-top: 240px;
+    color: white;
+  }
+}
+
+.wedding-plan-header-img {
+  background-image: url("assets/wedding\ plan\ header.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: brightness(0.5);
+}
+
+/*contact us section*/
+
+.contact-section-img {
+  background-image: url("assets/contact-us-img.avif");
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.5);
+}
+.contact-us {
+  text-align: center;
+  padding-top: 240px;
+  color: white;
+}
+
+/*PAGE SECTION- OUR SECTION PAGE */
+
+.page-section-img {
+  background: url("assets/pagesection-ourservice-1st.avif");
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.5);
+}
+
+.page-us {
+  text-align: center;
+  padding-top: 300px;
+  margin-left: 50px;
+  color: rgb(243, 238, 238);
+}
+
+
+/* page section-ourservice page- mob device media query-same about us img*/
+@media (min-width: 320px) and (max-width: 768px) {
+  .page-us {
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(246, 241, 241);
+  }
+}
